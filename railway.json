@@ -3,5 +3,8 @@
   "build": {
     "builder": "NIXPACKS",
     "buildCommand": "cd joketory-be && npm install && npm run build"
+  },
+  "deploy": {
+    "startCommand": "./start.sh"
   }
 }
