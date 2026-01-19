@@ -1,0 +1,13 @@
+{
+  "name": "joketory-strapi-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd joketory-be && npm run build",
+    "start": "cd joketory-be && npm start",
+    "develop": "cd joketory-be && npm run develop"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
