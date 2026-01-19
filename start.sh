@@ -1,11 +1,14 @@
 #!/bin/bash
+set -e
+
+# Navigate to the Strapi directory
 cd joketory-be
 
 # Install dependencies
-npm install --production=false
+npm install --production
 
 # Build the application
 npm run build
 
 # Start the application
-NODE_ENV=production npm start
+exec npm run start
